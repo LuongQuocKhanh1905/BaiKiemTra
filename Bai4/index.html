@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2 style="text-align: center;">Add new phone</h2>
+    <p>ID Phone : </p><input type="text" id="idphone" placeholder="Phone Name" ><br>
+    <p>Name Phone: </p><input type="text" id="namephone" placeholder="Name Phone"  ><br>
+    <p>Manufacturer Phone : </p><input type="text" id="manufacturerphone" placeholder="Manufacturer Phone "  ><br>
+    <p>Price Phone : </p><input type="text" id="pricephone" placeholder="Price Phone " ><br><br><br>
+    <button onclick="addNewProduct()">ADD</button>
+    <h3>Display all Phone</h3>
+    <table id="table" width = 100% style="text-align: center;">
+        <thead class=""hd>
+        <tr>
+            <th>ID Phone</th>
+            <th > Name Phone</th>
+            <th > Manufacturer Phone</th>
+            <th > Price Phone</th>
+            <th colspan="2"><p id="total"></p></th>
+        </tr>
+
+        </thead>
+
+        <tbody id="tbody">
+
+        </tbody>
+    </table>
+    
+    <script src="./phone.js"></script>
+    <script src="./main.js"></script>
+</body>
+
+
+</html>
